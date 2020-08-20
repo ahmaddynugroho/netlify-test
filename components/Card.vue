@@ -1,16 +1,8 @@
 <template>
   <div
-    class="card bg-no-repeat bg-local bg-contain m-3 rounded-md px-4 pt-24 pb-16 relative transition duration-150 hover:-translate-y-4 transform"
+    class="card bg-no-repeat bg-local bg-contain m-5 rounded-md px-4 pt-24 pb-16 relative transition duration-150 hover:-translate-y-4 transform"
   >
-    <span
-      >"Commodo sit est ullamco est elit et incididunt anim dolor eiusmod sunt
-      proident. Commodo pariatur et veniam commodo officia qui sit nostrud velit
-      fugiat. Do consectetur ex qui ea mollit excepteur ex labore ea veniam
-      elit. Ex fugiat minim cillum qui sit nisi sunt fugiat irure tempor id ad.
-      Enim in pariatur in eu non do. Commodo reprehenderit excepteur amet fugiat
-      deserunt consequat officia laborum mollit eiusmod nisi sit non. Commodo
-      veniam reprehenderit commodo incididunt enim ea dolore dolor id."</span
-    >
+    <span> {{ original_message }} </span>
 
     <button
       class="absolute left-0 bottom-0 transition duration-150 transform hover:scale-110"
