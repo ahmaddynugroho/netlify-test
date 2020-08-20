@@ -7,7 +7,7 @@
       srcset=""
     />
     <div
-      class="p-3 col-span-3 m-16 grid grid-cols-1 lg:grid-cols-3 rounded-md"
+      class="lg:p-3 col-span-3 m-2 lg:m-16 grid grid-cols-1 lg:grid-cols-3 rounded-md"
       style="background-color: #29222f;"
     >
       <div class="mx-1">
