@@ -1,6 +1,6 @@
 <template>
   <div
-    class="card bg-no-repeat bg-local bg-contain m-5 rounded-md px-4 pt-24 pb-16 relative transition duration-150 hover:-translate-y-4 transform"
+    class="card bg-no-repeat bg-local bg-top bg-contain m-5 rounded-md px-4 pt-24 pb-16 relative transition duration-150 hover:-translate-y-4 transform"
   >
     <span> {{ original_message }} </span>
 
@@ -30,11 +30,11 @@ export default {
 
 <style>
 .card {
-  background-image: url('../assets/img/card2.png');
+  background-image: url('../assets/img/card1.png');
   /* bg card 1 */
-  /* background-color: #724683; */
+  background-color: #724683;
   /* bg card 2 */
-  background-color: #fd418d;
+  /* background-color: #fd418d; */
   /* bg card 3 */
   /* background-color: #6e4080; */
 }
